@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="geometricPrecision">
+      <style>
+        .animated { 
+          animation: fade 3.5s ease-in-out infinite;
+        }
+        @keyframes fade {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.5; }
+        }
+      </style><circle class="animated" cx="24" cy="24" r="6" fill="#78909c"/><path class="animated" fill="#546e7a" d="M2 18v6a6 6 0 0 0 12 0v-6Z"/><path class="animated" fill="#b0bec5" d="M30 14V8a6 6 0 0 0-12 0v6Z"/></svg>

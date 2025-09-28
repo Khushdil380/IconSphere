@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="geometricPrecision">
+      <style>
+        .animated { 
+          animation: bounce 3s ease-in-out infinite;
+          transform-origin: center bottom;
+        }
+        @keyframes bounce {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-2px); }
+        }
+      </style><path class="animated" fill="#9ccc65" d="M4 2h24v4H4zm6 6h12v4H10zm-6 6h24v4H4zm6 6h12v4H10zm-6 6h24v4H4z"/></svg>

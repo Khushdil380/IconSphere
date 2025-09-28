@@ -1,0 +1,26 @@
+/* Hide folder expand/collapse arrows in VS Code file explorer */
+.monaco-tree-row .monaco-tl-twistie,
+.monaco-list-row .monaco-tl-twistie,
+.explorer-viewlet .monaco-tree .monaco-tree-row .monaco-tl-twistie,
+.explorer-viewlet .monaco-list .monaco-list-row .monaco-tl-twistie,
+.tree-view .monaco-tl-twistie,
+.monaco-workbench .part.sidebar .composite.viewlet .split-view-view .tree-explorer-viewlet-tree-view .monaco-tree .monaco-tree-row .monaco-tl-twistie,
+.monaco-workbench .part.sidebar .composite.viewlet .split-view-view .tree-explorer-viewlet-tree-view .monaco-list .monaco-list-row .monaco-tl-twistie {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+}
+
+/* Adjust indentation to compensate for hidden arrows */
+.monaco-tree-row .monaco-tl-indent,
+.monaco-list-row .monaco-tl-indent {
+    margin-left: -16px !important;
+}
+
+/* Ensure folder icons are still clickable */
+.monaco-tree-row .monaco-icon-label,
+.monaco-list-row .monaco-icon-label {
+    cursor: pointer !important;
+}

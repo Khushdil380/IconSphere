@@ -1,0 +1,104 @@
+{
+  "name": "iconsphere",
+  "displayName": "IconSphere",
+  "description": "Modern Icon Theme for Visual Studio Code - Dark, Colorful, and Animated variants with enhanced folder management",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "generate": "node ./scripts/generate-all.js",
+    "generate:dark": "node ./scripts/generate-dark.js",
+    "generate:colorful": "node ./scripts/generate-colorful.js",
+    "generate:animated": "node ./scripts/generate-animated.js",
+    "build": "npm run generate",
+    "test": "npm run generate && echo 'Themes generated successfully'",
+    "dev": "npm run generate",
+    "prepare": "husky"
+  },
+  "publisher": "Khushdil380",
+  "author": {
+    "name": "Khushdil",
+    "email": "khushdil380@gmail.com",
+    "url": "https://github.com/Khushdil380"
+  },
+  "funding": "https://github.com/sponsors/Khushdil380",
+  "sponsor": {
+    "url": "https://github.com/sponsors/Khushdil380"
+  },
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "homepage": "https://github.com/Khushdil380/IconSphere/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khushdil380/IconSphere.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Khushdil380/IconSphere/issues"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#282c34",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "theme",
+    "iconsphere",
+    "icon-theme",
+    "customization",
+    "dark",
+    "colorful",
+    "animated",
+    "modern",
+    "clean"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "sideEffects": false,
+  "contributes": {
+    "configuration": {
+      "title": "IconSphere",
+      "properties": {
+        "iconsphere.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": true,
+          "description": "Hides the arrow icons in the file explorer for a cleaner look"
+        }
+      }
+    },
+    "iconThemes": [
+      {
+        "id": "dark-icons",
+        "label": "IconSphere Dark",
+        "path": "./themes/dark/dark-icon-theme.json",
+        "_watch": true
+      },
+      {
+        "id": "colorful-icons",
+        "label": "IconSphere Colorful",
+        "path": "./themes/colorful/colorful-icon-theme.json",
+        "_watch": true
+      },
+      {
+        "id": "animated-icons",
+        "label": "IconSphere Animated",
+        "path": "./themes/animated/animated-icon-theme.json",
+        "_watch": true
+      }
+    ]
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  }
+}

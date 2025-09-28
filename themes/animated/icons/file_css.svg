@@ -1,0 +1,16 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+      <style>
+        .animated { 
+          animation: fade 3.5s ease-in-out infinite;
+        }
+        @keyframes fade {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.5; }
+        }
+      </style>
+  <path class="animated" d="M9.5 1H3.5C2.7 1 2 1.7 2 2.5v11c0 0.8 0.7 1.5 1.5 1.5h9c0.8 0 1.5-0.7 1.5-1.5V5.5L9.5 1z" fill="currentColor"/>
+  <rect class="animated" x="4" y="6" width="8" height="1" fill="white"/>
+  <rect class="animated" x="4" y="8" width="8" height="1" fill="white"/>
+  <rect class="animated" x="4" y="10" width="8" height="1" fill="white"/>
+  <rect class="animated" x="4" y="12" width="6" height="1" fill="white"/>
+</svg>

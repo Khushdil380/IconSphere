@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="geometricPrecision">
+      <style>
+        .animated { 
+          animation: pulse 2.5s ease-in-out infinite;
+        }
+        @keyframes pulse {
+          0% { opacity: 1; }
+          50% { opacity: 0.7; }
+          100% { opacity: 1; }
+        }
+      </style><path class="animated" fill="#263238" d="m14 20 4 4-4 4H2v-8h8l10-8-6-4 6-4h10v8Z"/><path class="animated" fill="#651fff" d="M20 4H2v8h18Z"/><path class="animated" fill="#ff3d00" d="M30 20H14v8h16Z"/></svg>

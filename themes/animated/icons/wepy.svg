@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="geometricPrecision">
+      <style>
+        .animated { 
+          animation: breathing 3s ease-in-out infinite;
+        }
+        @keyframes breathing {
+          0% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.7; transform: scale(1.05); }
+          100% { opacity: 1; transform: scale(1); }
+        }
+      </style><path class="animated" fill="#4caf50" d="M16 2A14 14 0 0 0 2 16v12a2 2 0 0 0 2 2h12a14 14 0 0 0 0-28m0 24a10 10 0 1 1 10-10 10.01 10.01 0 0 1-10 10"/></svg>

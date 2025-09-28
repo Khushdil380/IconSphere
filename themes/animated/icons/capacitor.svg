@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="geometricPrecision">
+      <style>
+        .animated { 
+          animation: breathing 3s ease-in-out infinite;
+        }
+        @keyframes breathing {
+          0% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.7; transform: scale(1.05); }
+          100% { opacity: 1; transform: scale(1); }
+        }
+      </style><path class="animated" fill="#4fc3f7" d="m19.081 2.35-4.795 4.795L9.62 2.482 7.05 5.05l4.664 4.665 2.57 2.57 4.705 4.705 2.57-2.57-4.705-4.705 4.795-4.797zM5.052 7.05l-2.57 2.57 4.665 4.664L2.35 19.08l2.57 2.57 4.796-4.796 4.704 4.705 2.57-2.57-7.274-7.274z" paint-order="fill markers stroke"/></svg>
