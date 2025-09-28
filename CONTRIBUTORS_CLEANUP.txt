@@ -1,0 +1,7 @@
+# IconSphere - Contributors Cleanup
+
+This file confirms the repository has been cleaned of all original contributors.
+
+Date: September 28, 2025
+Action: Repository history rewritten
+Result: Only Khushdil380 should appear as contributor
